@@ -162,7 +162,7 @@ class Client
   #         $("#debug").append(str + "\n");
   #     };
   debug: (message) ->
-    window?.console?.log message
+    window?.console?.log?.log message
       
   # Utility method to get the current timestamp (Date.now is not defined in IE8)
   now= ->
